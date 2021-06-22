@@ -1,0 +1,57 @@
+body{
+    background-color:cyan;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#content{
+    background-color: black;
+    margin-left:25%;
+    margin-right:25%;
+    padding-bottom: 30px;
+}
+
+#Header {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.Buttons{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    display: inline-grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.button{
+    font-weight: bold;
+    background-color: white;
+    margin: 10px;
+    padding: 12px;
+}
+
+
+#text_section{
+    
+    color: white;
+    padding-top: 5px;
+    height: 30px;
+    width: 400px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
